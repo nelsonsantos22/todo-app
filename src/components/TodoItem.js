@@ -4,7 +4,7 @@ function TodoItem(props) {
     return (
         <div>
             <p className="todo-item">
-                <input type="checkbox"/>
+                <input type="checkbox" checked={props.info.completed}/>
                     {props.info.text}
             </p>
         </div>
