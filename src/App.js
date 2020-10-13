@@ -23,6 +23,7 @@ class App extends Component {
         }
         return todo
       })
+
       return{ 
         todos : updatedTodos
       }
